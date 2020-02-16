@@ -1,0 +1,3 @@
+<?php
+$this->Write('</main>');
+?>

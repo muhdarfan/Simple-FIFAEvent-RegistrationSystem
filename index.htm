@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<head>
+	<title><?php echo $this->Title; ?></title>
+	<?php echo implode($this->CSS); ?>
+	<?php echo $this->Favicon; ?>
+	<?php echo $this->HeadData; ?>
+</head>
+
+<body id="<?php echo $this->Body['id']; ?>" class="<?php echo $this->Body['class']; ?>">
+	<?php echo $this->Body['content']; ?>
+
+  <?php echo implode($this->JS); ?>
+</body>
+
+</html>
